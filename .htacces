@@ -1,0 +1,12 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htacces|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from Allow</Files Match>
+
+RewriteEngine on
+RewriteRule home index.html
+RewriteRule o-nas onas.html
+RewriteRule zrodla zrodla.html
+RewriteRule artykul artykul.html
+RewriteRule cennik cennik.html
+RewriteRule kontakt kontakt.html

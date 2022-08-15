@@ -1,0 +1,331 @@
+body{
+	background-color: #666666;
+	margin: 0 !important;
+	font-size: 1rem;
+}
+.b{
+	border: 1px red solid;
+}
+/* header */
+.nav{
+	width: 100%;
+	background-color: #919191;
+	color: white;
+	display: grid;
+	grid-template-columns: repeat(5,2fr);
+	grid-template-rows: repeat(3,auto);
+}  
+.nav-grid a{
+	display: block;
+    padding: 15px 0;
+    background-color: #00C753;
+    color: white;
+    text-decoration: none;
+	text-align: center;
+}
+.nav-grid a:hover{
+	color: rgb(179, 179, 179);
+	background-color: #00B642;
+}
+.nav-grid-img{
+	grid-column: 3;
+	grid-row: 1/4;
+}
+.nav-grid{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	grid-row: 2;
+	
+}
+/* style dla tableta */
+@media only screen and (max-width: 767px) {
+	
+}
+
+/* strona nominalna */
+
+.col-xl-1 {width: 8.33%;}
+.col-xl-2 {width: 16.66%;}
+.col-xl-3 {width: 25%;}
+.col-xl-4 {width: 33.33%;}
+.col-xl-5 {width: 41.66%;}
+.col-xl-6 {width: 50%;}
+.col-xl-7 {width: 58.33%;}
+.col-xl-8 {width: 66.66%;}
+.col-xl-9 {width: 75%;}
+.col-xl-10 {width: 83.33%;}
+.col-xl-11 {width: 91.66%;}
+.col-xl-12 {width: 95%;}
+
+/* style dla desktopa max 1199px*/
+@media only screen and (max-width: 1199px) {
+	.col-l-1 {width: 8.33%;}
+	.col-l-2 {width: 16.66%;}
+	.col-l-3 {width: 25%;}
+	.col-l-4 {width: 33.33%;}
+	.col-l-5 {width: 41.66%;}
+	.col-l-6 {width: 50%;}
+	.col-l-7 {width: 58.33%;}
+	.col-l-8 {width: 66.66%;}
+	.col-l-9 {width: 75%;}
+	.col-l-10 {width: 83.33%;}
+	.col-l-11 {width: 91.66%;}
+	.col-l-12 {width: 100%;}	
+}
+
+/* style dla laptopa */
+@media only screen and (max-width: 991px) {
+	.col-md-1 {width: 8.33%;}
+	.col-md-2 {width: 16.66%;}
+	.col-md-3 {width: 25%;}
+	.col-md-4 {width: 33.33%;}
+	.col-md-5 {width: 41.66%;}
+	.col-md-6 {width: 50%;}
+	.col-md-7 {width: 58.33%;}
+	.col-md-8 {width: 66.66%;}
+	.col-md-9 {width: 75%;}
+	.col-md-10 {width: 83.33%;}
+	.col-md-11 {width: 91.66%;}
+	.col-md-12 {width: 100%;}	       
+}
+
+/* style dla tableta */
+@media only screen and (max-width: 767px) {
+	.col-s-1 {width: 8.33%;}
+	.col-s-2 {width: 16.66%;}
+	.col-s-3 {width: 25%;}
+	.col-s-4 {width: 33.33%;}
+	.col-s-5 {width: 41.66%;}
+	.col-s-6 {width: 50%;}
+	.col-s-7 {width: 58.33%;}
+	.col-s-8 {width: 66.66%;}
+	.col-s-9 {width: 75%;}
+	.col-s-10 {width: 83.33%;}
+	.col-s-11 {width: 91.66%;}
+	.col-s-12 {width: 100%;}	
+}
+
+/* style dla telefonu */
+@media only screen and (max-width: 575px) {
+	.col-xs-1 {width: 8.33%;}
+	.col-xs-2 {width: 16.66%;}
+	.col-xs-3 {width: 25%;}
+	.col-xs-4 {width: 33.33%;}
+	.col-xs-5 {width: 41.66%;}
+	.col-xs-6 {width: 50%;}
+	.col-xs-7 {width: 58.33%;}
+	.col-xs-8 {width: 66.66%;}
+	.col-xs-9 {width: 75%;}
+	.col-xs-10 {width: 83.33%;}
+	.col-xs-11 {width: 91.66%;}
+	.col-xs-12 {width: 100%;}	
+}
+
+.col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12,
+.col-l-1, .col-l-2, .col-l-3, .col-l-4, .col-l-5, .col-l-6, .col-l-7, .col-l-8, .col-l-9, .col-l-10, .col-l-11, .col-l-12,
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12,
+.col-s-1, .col-s-2, .col-s-3, .col-s-4, .col-s-5, .col-s-6, .col-s-7, .col-s-8, .col-s-9, .col-s-10, .col-s-11, .col-s-12,
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+	float: left;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.row {
+	/* clear: both; */
+	display: table;
+	width:100%
+}
+.row::after {
+	clear: both;
+
+}
+
+/* lewa strona */
+.sidebarleft{
+	display: grid;
+	grid-template-columns: repeat(2,2fr);
+	grid-template-rows: repeat(2,auto);
+}
+
+@media only screen and (max-width: 767px) {
+	.sidebarleft{
+		display: grid;
+		grid-template-columns: repeat(1,2fr);
+		grid-template-rows: repeat(4,auto);
+	}	
+}
+
+.sidebarright{
+	display: grid;
+	grid-template-rows: repeat(2,auto);
+	padding: 15px 0;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+.art{
+	background-color: #FFFFFF;
+	margin: 10px;
+	border-radius: 10px;
+	display: grid;
+	grid-template-columns: repeat(4,2fr);
+	grid-template-rows: repeat(2,auto);
+}
+.art-title{
+	grid-column: 1/5;
+	grid-row: 1;
+}
+.art-content{
+	grid-column: 1/4;
+	grid-row: 2;
+}
+.art-img{
+	grid-column: 4/5;
+	grid-row: 2;
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+}
+.sidebarleft a{
+	color: black;
+	text-decoration: none;
+	display: block;
+    padding: 15px 0;
+	text-align: center;
+}
+.sidebarleft a:hover{
+	color: black;
+}
+/* prawa strona */
+.kal{
+	width: auto;
+	max-height: 500px;
+	font-size: 0.75rem;
+}
+.kalendarz{
+	background-color: #FFFFFF;
+	margin: 10px;
+	border-radius: 10px;
+}
+.calendar-container{
+    position: relative;
+    margin: 50px auto;
+    max-width: 500px;
+}
+.title{
+    text-align: center;
+}
+.kw{
+	margin: 10px;
+}
+
+
+/* footer */
+.dol{
+    background-color: #111111;
+	padding: 15px 0;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+.dol a{
+	color: white;
+	text-decoration: none;
+	text-align: left;
+}
+
+
+
+
+
+/* Kontak.html */
+.boxshadow{
+	box-shadow:5px 5px 20px #000000;
+}
+.textshadow{
+	text-shadow:2px 2px 20px #000000;
+}
+.mapa{
+	min-width: 200px;
+	min-height: 500px;
+	width: 60%;
+	height: 80%;
+	margin-bottom: 25px;
+}
+.textkontakt{
+	color: lightgray;
+}
+.textkontakt a {
+	color:lightgray;
+}
+.sidebarleftk{
+	display: block;
+    padding: 15px 0;
+	text-align: center;
+}
+
+
+/* artykuły */
+
+.artyk{
+	background-color: #FFFFFF;
+	margin: 10px;
+	border-radius: 10px;
+	display: grid;
+	grid-template-columns: repeat(4,2fr);
+	grid-template-rows: repeat(3,auto);
+}
+.artyk-title{
+	grid-column: 1/5;
+	grid-row: 1;
+	text-align: center;
+}
+.artyk-content{
+	grid-column: 1/4;
+	grid-row: 2;
+}
+.artyk-autor{
+	grid-column: 1/3;
+	grid-row: 3;
+}
+.artyk-data{
+	grid-column: 3/5;
+	grid-row: 3;
+}
+.artyk-img{
+	grid-column: 4/5;
+	grid-row: 2;
+	width: 100px;
+	height: 100px;
+}
+
+/* cennik */
+
+.table{
+	background-color: #FFFFFF;
+	margin: 10px;
+	border-radius: 10px;
+	padding:10px;
+}
+.sidebarleft td { 
+	border: 1px solid black; 
+}
+.dodaj{
+	text-align: right;
+}
+
+
+/* zrodla */
+
+.zrodlo{
+	background-color: #FFFFFF;
+	margin: 10px;
+	border-radius: 10px;
+	padding:10px;
+	text-align: center;
+}
+.ezz{
+	max-width: 70%;
+	min-width: 30%;
+}
